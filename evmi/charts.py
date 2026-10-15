@@ -349,7 +349,7 @@ def quadrant_chart(quadrant_frame: pd.DataFrame, threshold: float | None, theme:
 def europe_map(frame: pd.DataFrame, metric: str = "value", theme: str = "dark") -> go.Figure:
     """只给已采集、有可用数值的国家着色；灰色边界没有市场数值。
 
-    离线地图需调用者设置 config.topojsonURL='/app/static/maps/'，
+    离线地图需调用者设置 config.topojsonURL='app/static/maps/'（应用相对路径），
     项目启动后由 Streamlit 从本地目录提供欧洲真实地理底图。
     """
     if metric not in {"value", "yoy_pct", "delta"}:

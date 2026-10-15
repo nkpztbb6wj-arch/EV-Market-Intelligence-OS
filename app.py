@@ -101,7 +101,8 @@ def show_chart(figure, name, context, selectable=True):
             text=dft.ATTRIBUTION, font={'size':9})
         figure.update_layout(margin_t=85)
     config = {"displaylogo": False, "scrollZoom": False, "responsive": True,
-              "topojsonURL": "/app/static/maps/",
+              # 相对当前应用文档解析；Cloud iframe 位于 /~/+/，不能跳回域名根目录。
+              "topojsonURL": "app/static/maps/",
               "toImageButtonOptions": {"format": "png", "filename": f"evmi_{name}_{context['year']}",
                                        "scale": 2, "width": 1400, "height": max(650, figure.layout.height or 650)}}
     key = f"chart_{name}_{context['batch']}_{st.session_state.get('selection_epoch',0)}"
