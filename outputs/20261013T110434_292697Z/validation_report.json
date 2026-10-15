@@ -1,0 +1,62 @@
+{
+  "validation_passed": true,
+  "dataset": "road_eqr_carpda",
+  "label": "New passenger cars by type of motor energy",
+  "dimensions": [
+    "freq",
+    "unit",
+    "mot_nrg",
+    "geo",
+    "time"
+  ],
+  "dimension_sizes": [
+    1,
+    1,
+    16,
+    2,
+    4
+  ],
+  "source_updated": "2026-10-06T23:00:00+0200",
+  "years_returned": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "rows": 24,
+  "observed_rows": 24,
+  "missing_rows": 0,
+  "flagged_observations": [
+    {
+      "geo": "FR",
+      "year": 2023,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "FR",
+      "year": 2023,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    }
+  ],
+  "missing_observations": [],
+  "calendar_years_not_returned": [
+    2026
+  ],
+  "checks": [
+    "ESTAT source and dataset identity",
+    "JSON-stat dimensions and indices",
+    "DE/FR only",
+    "annual A, count NR",
+    "year range",
+    "official powertrain codes and labels",
+    "unique observation keys",
+    "nonnegative integer counts",
+    "missing values preserved",
+    "quality flags retained",
+    "CSV full-cell round trip"
+  ]
+}

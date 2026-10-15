@@ -1,0 +1,6 @@
+# 云端最小运行依赖；本机不据此重装。云端选择Python 3.12。
+streamlit==1.65.0
+plotly==7.1.0
+pandas==3.0.6
+requests==2.34.2
+tzdata==2026.5

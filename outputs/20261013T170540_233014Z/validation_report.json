@@ -1,0 +1,321 @@
+{
+  "validation_passed": true,
+  "dataset": "road_eqr_carpda",
+  "label": "New passenger cars by type of motor energy",
+  "dimensions": [
+    "freq",
+    "unit",
+    "mot_nrg",
+    "geo",
+    "time"
+  ],
+  "dimension_sizes": [
+    1,
+    1,
+    16,
+    10,
+    4
+  ],
+  "source_updated": "2026-10-06T23:00:00+0200",
+  "years_returned": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "rows": 120,
+  "observed_rows": 120,
+  "missing_rows": 0,
+  "flagged_observations": [
+    {
+      "geo": "BE",
+      "year": 2022,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "BE",
+      "year": 2022,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "BE",
+      "year": 2023,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "BE",
+      "year": 2023,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "BE",
+      "year": 2024,
+      "mot_nrg": "ELC",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "BE",
+      "year": 2024,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "BE",
+      "year": 2024,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "FR",
+      "year": 2023,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "FR",
+      "year": 2023,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "IT",
+      "year": 2022,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "IT",
+      "year": 2022,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "IT",
+      "year": 2023,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "IT",
+      "year": 2023,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "IT",
+      "year": 2024,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "IT",
+      "year": 2024,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "IT",
+      "year": 2025,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "IT",
+      "year": 2025,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "NL",
+      "year": 2022,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "NL",
+      "year": 2022,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "NL",
+      "year": 2023,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "NL",
+      "year": 2023,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "NL",
+      "year": 2024,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "NL",
+      "year": 2024,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "NL",
+      "year": 2025,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "NL",
+      "year": 2025,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "PL",
+      "year": 2022,
+      "mot_nrg": "ELC",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "PL",
+      "year": 2022,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "PL",
+      "year": 2022,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "PL",
+      "year": 2023,
+      "mot_nrg": "ELC",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "PL",
+      "year": 2023,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "PL",
+      "year": 2023,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "PL",
+      "year": 2024,
+      "mot_nrg": "ELC",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "PL",
+      "year": 2025,
+      "mot_nrg": "ELC",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "PL",
+      "year": 2025,
+      "mot_nrg": "ELC_DIE_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    },
+    {
+      "geo": "PL",
+      "year": 2025,
+      "mot_nrg": "ELC_PET_PI",
+      "status": "i",
+      "status_label": "value imputed by Eurostat or other receiving agencies"
+    }
+  ],
+  "missing_observations": [],
+  "calendar_years_not_returned": [],
+  "checks": [
+    "ESTAT source and dataset identity",
+    "JSON-stat dimensions and indices",
+    "declared countries only",
+    "annual A, count NR",
+    "year range",
+    "official powertrain codes and labels",
+    "unique observation keys",
+    "nonnegative integer counts",
+    "missing values preserved",
+    "quality flags retained",
+    "CSV full-cell round trip"
+  ],
+  "totals": {
+    "validation_passed": true,
+    "rows": 40,
+    "observed_rows": 40,
+    "missing_rows": 0,
+    "flagged_observations": [
+      {
+        "geo": "BE",
+        "year": 2023,
+        "mot_nrg": "TOTAL",
+        "status": "i",
+        "status_label": "value imputed by Eurostat or other receiving agencies"
+      },
+      {
+        "geo": "BE",
+        "year": 2024,
+        "mot_nrg": "TOTAL",
+        "status": "i",
+        "status_label": "value imputed by Eurostat or other receiving agencies"
+      },
+      {
+        "geo": "PL",
+        "year": 2023,
+        "mot_nrg": "TOTAL",
+        "status": "i",
+        "status_label": "value imputed by Eurostat or other receiving agencies"
+      }
+    ],
+    "missing_observations": []
+  }
+}

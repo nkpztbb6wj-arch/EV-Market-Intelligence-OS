@@ -1,0 +1,36 @@
+# 所有配置只作用于本项目，不修改系统设置。
+[server]
+headless = true
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = "none"
+toolbarMode = "viewer"
+
+[theme]
+base = "dark"
+primaryColor = "#38BDF8"
+backgroundColor = "#081323"
+secondaryBackgroundColor = "#101E33"
+textColor = "#DFE8F5"
+font = "sans serif"
+borderColor = "#26374E"
+showWidgetBorder = true
+showSidebarBorder = true
+
+[theme.dark]
+primaryColor = "#38BDF8"
+backgroundColor = "#081323"
+secondaryBackgroundColor = "#101E33"
+textColor = "#DFE8F5"
+borderColor = "#26374E"
+
+[theme.light]
+primaryColor = "#027DAA"
+backgroundColor = "#F2F5FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#17263D"
+borderColor = "#D6DFEB"

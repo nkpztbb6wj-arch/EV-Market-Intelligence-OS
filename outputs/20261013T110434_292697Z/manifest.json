@@ -1,0 +1,14 @@
+{
+  "run_id": "20261013T110434_292697Z",
+  "dataset": "road_eqr_carpda",
+  "source_page": "https://ec.europa.eu/eurostat/databrowser/product/page/road_eqr_carpda",
+  "requested_at_utc": "2026-10-13T11:04:34.292697+00:00",
+  "status": "success",
+  "request_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/road_eqr_carpda?lang=EN&freq=A&unit=NR&geo=DE&geo=FR&sinceTimePeriod=2022",
+  "http_status": 200,
+  "retrieved_at_utc": "2026-10-13T11:04:35.384164+00:00",
+  "raw_file": "data\\raw\\20261013T110434_292697Z\\road_eqr_carpda.json",
+  "raw_sha256": "be6276c3376c04b935c28ab85a56ff824f53369dcbf34982b6b5995e86a07a9c",
+  "csv_file": "data\\processed\\20261013T110434_292697Z\\ev_registrations_de_fr_2022_onwards.csv",
+  "csv_sha256": "ac1a70b7cf3038c0d6f082cd17a6b82b288c9299c99b45bae5099794335c6f8c"
+}
